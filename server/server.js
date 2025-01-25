@@ -13,7 +13,8 @@ const port = process.env.PORT || 8000
 connectDB()
 const _dirname= path.resolve()
 
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['https://authportal-b34r.onrender.com']
+// const allowedOrigins = ['http://localhost:5173']
 
 
 
